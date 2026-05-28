@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>My IT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="logo-block">
+            <img src="img/avatar.jpg" alt="Логотип" class="logo">
+            <div>
+                <h1>My IT Portfolio</h1>
+                <p>Алимов Амир</p>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <a href="#home">Главная</a>
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Навыки</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- Главная -->
+    <section id="home" class="hero">
+        <h2>Добро пожаловать в моё IT-портфолио</h2>
+        <p>
+            Здесь вы можете узнать обо мне, моих навыках, учебных проектах
+            и профессиональных интересах в сфере информационных технологий.
+        </p>
+        <a href="#about" class="btn">Узнать больше</a>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section about">
+        <h2>Обо мне</h2>
+
+        <div class="about-content">
+            <img src="img/avatar.jpg" alt="Фото студента" class="profile-photo">
+
+            <div>
+                <p>
+                    Меня зовут Алимов Амир. Я студент первого курса университета, обучаюсь по специальности,
+                    связанной с искусственным интеллектом и информационными технологиями. Я интересуюсь
+                    программированием, разработкой веб-сайтов, искусственным интеллектом, машинным обучением
+                    и современными цифровыми технологиями. Для меня IT-сфера является не просто учебным
+                    направлением, а областью, в которой я хочу развиваться профессионально.
+                </p>
+
+                <p>
+                    В университете я изучаю основы программирования, алгоритмы, работу с данными, веб-разработку
+                    и другие дисциплины, которые помогают сформировать базу для будущей профессии. Особенно мне
+                    интересны Python, искусственный интеллект, создание сайтов и разработка полезных цифровых
+                    сервисов. Я стараюсь постепенно улучшать свои навыки, выполнять практические задания и
+                    создавать собственные небольшие проекты.
+                </p>
+
+                <p>
+                    Моя цель — стать хорошим IT-специалистом, который умеет не только писать код, но и понимать
+                    реальные задачи пользователей. В будущем я хочу разрабатывать приложения, сайты и системы,
+                    которые помогают людям учиться, работать и решать повседневные задачи быстрее и удобнее.
+                </p>
+
+                <ul>
+                    <li><b>Университет:</b> ETU / META</li>
+                    <li><b>Специальность:</b> Инжиниринг и искусственный интеллект</li>
+                    <li><b>Курс:</b> 1 курс</li>
+                    <li><b>Интересы:</b> Python, AI, Web-разработка, Machine Learning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section">
+        <h2>Мои навыки</h2>
+
+        <div class="skills-grid">
+            <div class="card">
+                <h3>Технические навыки</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Soft Skills</h3>
+                <ol>
+                    <li>Командная работа</li>
+                    <li>Коммуникация</li>
+                    <li>Аналитическое мышление</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Таблица расписания -->
+    <section class="section">
+        <h2>Моё расписание</h2>
+
+        <table>
+            <tr>
+                <th>День недели</th>
+                <th>Время</th>
+                <th>Предмет</th>
+                <th>Аудитория</th>
+            </tr>
+            <tr>
+                <td>Понедельник</td>
+                <td>09:00 - 10:30</td>
+                <td>Python</td>
+                <td>305</td>
+            </tr>
+            <tr>
+                <td>Вторник</td>
+                <td>10:40 - 12:10</td>
+                <td>Web-разработка</td>
+                <td>210</td>
+            </tr>
+            <tr>
+                <td>Среда</td>
+                <td>13:00 - 14:30</td>
+                <td>Базы данных</td>
+                <td>408</td>
+            </tr>
+            <tr>
+                <td>Четверг</td>
+                <td>14:40 - 16:10</td>
+                <td>Английский язык</td>
+                <td>115</td>
+            </tr>
+            <tr>
+                <td>Пятница</td>
+                <td>11:00 - 12:30</td>
+                <td>Искусственный интеллект</td>
+                <td>502</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section">
+        <h2>Мои проекты</h2>
+
+        <div class="projects-grid">
+            <div class="card">
+                <h3>AI Student Assistant</h3>
+                <p>
+                    Учебный ИИ-ассистент, который помогает студентам получать краткие объяснения,
+                    советы по программированию и помощь с учебными вопросами.
+                </p>
+                <p><b>Технологии:</b> Python, Telegram Bot API, AI</p>
+                <a href="https://github.com/" target="_blank">Ссылка на GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    Персональный сайт-портфолио студента, где представлены информация обо мне,
+                    мои навыки, проекты, расписание и форма обратной связи.
+                </p>
+                <p><b>Технологии:</b> HTML, CSS, Git</p>
+                <a href="https://github.com/" target="_blank">Ссылка на GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты и форма -->
+    <section id="contacts" class="section">
+        <h2>Форма обратной связи</h2>
+
+        <form class="contact-form">
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Введите ваше имя">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Введите ваш email">
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" rows="5" placeholder="Введите сообщение"></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <p><b>Контакты:</b> a.alimov@meta.edu.kz</p>
+        <p><b>Соцсети:</b> Telegram:alimorovki | Instagram: Netu</p>
+        <p>© 2026 Алимов Амир. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
